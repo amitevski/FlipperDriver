@@ -1,0 +1,32 @@
+{
+  "name": "FlipperDriver",
+  "version": "0.0.1",
+  "description": "Driver for Pinball2000",
+  "main": "index.js",
+  "author":  "Wolfgang Hackenberg <whackenb@gmail.com>",
+  "maintainers": [ "Wolfgang Hackenberg <whackenb@gmail.com>", "Aco Mitevski <aco.mitevski@gmail.com>" ],
+  "directories": {
+    "test": "test"
+  },
+  "optionalDependencies": {
+    "parport2": "https://bitbucket.org/amitevski/parport2/downloads/parport2-0.1.0.tgz"
+  },
+  "devDependencies": {
+    "proxyquire": "~0.4.0",
+    "nodeunit": "~0.7.4"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "pinball2000"
+  ],
+  "licenses": [ {
+    "type": "GPL",
+    "version": "3",
+    "url": "http://www.gnu.org/licenses/gpl-3.0.txt"
+  } ],
+  "dependencies": {
+    "eventemitter2": "^0.4.13"
+  }
+}
