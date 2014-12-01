@@ -40,7 +40,7 @@ function ParallelPort(port) {
         throw new Error(util.format(Exceptions.WRONG_OPERATING_SYSTEM, os.type(), os.platform()));
     }
     try {
-        this.port = new parport2.Port(port.address);
+        this.port = new parport2(port.address);
     } catch (e) {
         throw new Error(util.format(Exceptions.NO_PARALLEL_PORT, port.address));
     }
