@@ -9,7 +9,7 @@
     "test": "test"
   },
   "optionalDependencies": {
-    "parport2": "~0.1.0"
+    "parport2": "amitevski/parport2"
   },
   "devDependencies": {
     "proxyquire": "~0.4.0",
